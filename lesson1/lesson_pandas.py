@@ -23,3 +23,6 @@ print(words.at["a"])
 
 words.watrmelon = "watermelon"
 print(words)
+
+words.at["w"] = "Water melon"
+print(words)
