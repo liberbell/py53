@@ -26,3 +26,6 @@ print(words)
 
 words.at["w"] = "Water melon"
 print(words)
+
+words.w = "Watermelon"
+print(words)
