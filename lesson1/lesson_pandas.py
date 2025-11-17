@@ -10,3 +10,5 @@ print(sr)
 
 sr0 = pd.Series(list2)
 print(sr0)
+print(sr.at[1])
+print(sr.loc[1:3])
