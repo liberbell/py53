@@ -7,3 +7,6 @@ print(list2)
 
 sr = pd.Series(list2, index=list1)
 print(sr)
+
+sr0 = pd.Series(list2)
+print(sr0)
