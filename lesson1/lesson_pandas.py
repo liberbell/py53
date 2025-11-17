@@ -20,3 +20,6 @@ print(sr)
 words = pd.Series(["Apple", "Orange", "Melon"], index=["a", "b", "c"])
 print(words)
 print(words.at["a"])
+
+words.watrmelon = "watermelon"
+print(words)
