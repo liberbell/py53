@@ -12,3 +12,7 @@ sr0 = pd.Series(list2)
 print(sr0)
 print(sr.at[1])
 print(sr.loc[1:3])
+sr.at[2] = 999
+print(sr)
+sr.loc[2:4] = [10, 20, 30]
+print(sr)
