@@ -16,3 +16,5 @@ sr.at[2] = 999
 print(sr)
 sr.loc[2:4] = [10, 20, 30]
 print(sr)
+
+words = pd.Series(["Apple", "Orange", "Melon"], index=["a", "b", "c"])
