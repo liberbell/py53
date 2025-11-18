@@ -32,3 +32,9 @@ print(words)
 
 print(sr.iat[0])
 print(sr.iloc[1:3])
+
+lst = ["a", "b", "c", "d", "e"]
+print(lst[0])
+
+sr01 = pd.Series([2, 4, 6, 8, 10], index=[0, 1, 2, 3, 4])
+print(sr01)
