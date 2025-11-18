@@ -41,3 +41,6 @@ sr02 = pd.Series([2, 4, 6, 8, 10], index=[1, 2, 3, 4, 5])
 print(sr01, sr02)
 print(sr01[0:3])
 print(sr02[0:3])
+
+msk = [True, True, False, True, False]
+print(sr.iloc[msk])
