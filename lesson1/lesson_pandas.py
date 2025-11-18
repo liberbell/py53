@@ -37,4 +37,5 @@ lst = ["a", "b", "c", "d", "e"]
 print(lst[0])
 
 sr01 = pd.Series([2, 4, 6, 8, 10], index=[0, 1, 2, 3, 4])
-print(sr01)
+sr02 = pd.Series([2, 4, 6, 8, 10], index=[1, 2, 3, 4, 5])
+print(sr01, sr02)
