@@ -1,10 +1,7 @@
 import sympy
 p = list(sympy.primerange(1, 100))
-print(p)
+p_num = len(p)
+print(len(p))
 
-list1 = []
-i = 0
-for i in range(1, 100):
-    list1.at[i] = i + 1
+list1 = list(range(1, p_num + 1))
 
-print(list1)
