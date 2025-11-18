@@ -29,3 +29,5 @@ print(words)
 
 words.w = "Watermelon"
 print(words)
+
+print(sr.iat[0])
