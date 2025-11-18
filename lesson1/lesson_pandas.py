@@ -31,3 +31,4 @@ words.w = "Watermelon"
 print(words)
 
 print(sr.iat[0])
+print(sr.iloc[1:3])
