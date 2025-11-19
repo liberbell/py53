@@ -47,3 +47,10 @@ print(sr)
 print(sr.iloc[msk])
 print(sr < 10)
 print(sr[sr < 10])
+# print(sr.iloc[sr<10])
+
+print(list2)
+lx2 = ["x", "y", "y", "y", "z"]
+
+sr2 = pd.Series(list2, index=lx2)
+print(sr2)
