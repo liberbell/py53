@@ -53,4 +53,4 @@ print(list2)
 lx2 = ["x", "y", "y", "y", "z"]
 
 sr2 = pd.Series(list2, index=lx2)
-print(sr2)
+print(sr2.at["y"])
