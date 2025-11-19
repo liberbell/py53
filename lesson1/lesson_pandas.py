@@ -60,4 +60,4 @@ ix = sr2.index
 print(ix)
 print(sr2.index.get_loc("y"))
 
-sr22 = pd.Series(range(9), index=["x", "y", "x", "x", "y", "y"])
+sr22 = pd.Series(range(9), index=["x", "y", "x", "x", "y", "y", "z", "y" "z"])
