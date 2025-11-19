@@ -58,3 +58,4 @@ print(type(sr2.values))
 
 ix = sr2.index
 print(ix)
+print(sr2.index.get_loc("y"))
