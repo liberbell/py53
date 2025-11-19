@@ -46,3 +46,4 @@ msk = [True, True, False, True, False]
 print(sr)
 print(sr.iloc[msk])
 print(sr < 10)
+print(sr[sr < 10])
