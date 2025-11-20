@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 list1 = [1, 2, 3, 4, 5]
 print(list1)
@@ -62,3 +63,8 @@ print(sr2.index.get_loc("y"))
 
 sr22 = pd.Series(range(9), index=["x", "y", "x", "x", "y", "y", "z", "y", "z"])
 print(sr22)
+
+print(sr22.index.get_loc("y"))
+
+ar = np.array([2, 4, 6, 8, 10], dtype="float64")
+print(ar)
