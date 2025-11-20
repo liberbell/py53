@@ -74,3 +74,8 @@ print(sr3)
 
 sr4 = pd.Series([25, 1, 16, 4, 9])
 print(sr4)
+sr41 = sr4.sort_values()
+print(sr41)
+
+sr42 = sr4.sort_values(ascending=False)
+print(sr42)
