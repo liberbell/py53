@@ -77,5 +77,7 @@ print(sr4)
 sr41 = sr4.sort_values()
 print(sr41)
 
-sr42 = sr4.sort_values(ascending=False)
+sr42 = sr4.sort_values(ascending=True)
 print(sr42)
+
+print(sr42.sort_index())
