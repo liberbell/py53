@@ -68,3 +68,6 @@ print(sr22.index.get_loc("y"))
 
 ar = np.array([2, 4, 6, 8, 10], dtype="float64")
 print(ar)
+
+sr3 = pd.Series(ar)
+print(sr3)
