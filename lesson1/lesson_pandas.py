@@ -90,3 +90,9 @@ sr51 = sr5.drop("d2")
 print(sr51)
 sr52 = sr5.drop(["d1", "d2"])
 print(sr52)
+
+srA = pd.Series([11, 12, 13])
+srB = pd.Series([21, 22, 23])
+
+srAB = pd.concat([srA, srB])
+print(srAB)
