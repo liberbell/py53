@@ -96,3 +96,5 @@ srB = pd.Series([21, 22, 23])
 
 srAB = pd.concat([srA, srB])
 print(srAB)
+srAB2 = srAB.reset_index(drop=True)
+print(srAB2)
