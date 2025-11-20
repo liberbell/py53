@@ -81,3 +81,7 @@ sr42 = sr4.sort_values(ascending=True)
 print(sr42)
 
 print(sr42.sort_index())
+print(sr42.sort_index(ascending=False))
+
+sr5 = pd.Series([111, 222, 333], index=["d1", "d2", "d3"])
+print(sr5)
