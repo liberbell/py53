@@ -88,3 +88,5 @@ print(sr5)
 
 sr51 = sr5.drop("d2")
 print(sr51)
+sr52 = sr5.drop(["d1", "d2"])
+print(sr52)
