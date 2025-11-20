@@ -85,3 +85,6 @@ print(sr42.sort_index(ascending=False))
 
 sr5 = pd.Series([111, 222, 333], index=["d1", "d2", "d3"])
 print(sr5)
+
+sr51 = sr5.drop("d2")
+print(sr51)
