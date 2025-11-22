@@ -108,3 +108,10 @@ print(srAB)
 sr6 = pd.Series([x**2 for x in range(100)])
 print(sr6.head(10))
 print(sr6.tail(10))
+
+midx = pd.MultiIndex.from_tuples([
+    ('A', 'a', 1),
+    ('A', 'a', 2),
+    ('A', 'b', 1),
+    ('A', 'b', 2)
+])
