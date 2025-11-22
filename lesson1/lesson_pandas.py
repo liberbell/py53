@@ -126,3 +126,16 @@ print(sr)
 print(sr.at["A", "b"])
 
 print(sr.sort_index(level=1))
+print(sr.sort_index(level=2))
+
+midx = pd.MultiIndex.from_tuples([
+    ('A', 'a', 1),
+    ('A', 'a', 2),
+    ('A', 'b', 1),
+    ('A', 'b', 2),
+    ('B', 'a', 1),
+    ('B', 'a', 2),
+    ('B', 'b', 1),
+    ('B', 'b', 2)
+], names=['1st', '2nd', '3rd'])
+print(midx)
