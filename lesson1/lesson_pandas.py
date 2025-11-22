@@ -98,3 +98,9 @@ srAB = pd.concat([srA, srB])
 print(srAB)
 srAB2 = srAB.reset_index(drop=True)
 print(srAB2)
+
+df1 = srAB.reset_index()
+print(df1)
+
+srAB.index = ["a", "b", "c", "d", "e", "f"]
+print(srAB)
