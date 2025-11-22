@@ -104,3 +104,5 @@ print(df1)
 
 srAB.index = ["a", "b", "c", "d", "e", "f"]
 print(srAB)
+
+sr6 = pd.Series([x**2 for x in range(100)])
