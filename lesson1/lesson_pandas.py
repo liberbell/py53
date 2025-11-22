@@ -106,4 +106,5 @@ srAB.index = ["a", "b", "c", "d", "e", "f"]
 print(srAB)
 
 sr6 = pd.Series([x**2 for x in range(100)])
-print(sr6)
+print(sr6.head(10))
+print(sr6.tail(10))
