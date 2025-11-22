@@ -141,4 +141,4 @@ midx = pd.MultiIndex.from_tuples([
 print(midx)
 
 sr = pd.Series(range(8), index=midx)
-print(sr)
+print(sr.sort_index(level="3rd"))
