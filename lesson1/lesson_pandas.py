@@ -119,3 +119,7 @@ midx = pd.MultiIndex.from_tuples([
     ('B', 'b', 1),
     ('B', 'b', 2)
 ])
+
+print(midx)
+sr = pd.Series(range(8), index=midx)
+print(sr)
