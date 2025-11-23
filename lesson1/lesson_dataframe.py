@@ -24,3 +24,9 @@ dc = {"linear": [1, 2, 3], "square": [1, 4, 9], "cubic": [1, 8, 27]}
 print(dc)
 df = pd.DataFrame(dc, index=["d1", "d2", "d3"])
 print(df)
+
+df2 = pd.DataFrame()
+df2.at["d1", "linear"] = 1
+df2.at["d2", "square"] = 4
+df2.at["d3", "cubic"] = 27
+print(df2)
