@@ -16,3 +16,8 @@ print(df)
 
 ar = np.array(list1)
 print(ar)
+
+df = pd.DataFrame(ar, columns=['linear', 'square', 'cubic'])
+print(df)
+
+dc = {"linear": [1, 2, 3]}
