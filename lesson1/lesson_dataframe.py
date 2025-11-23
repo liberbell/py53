@@ -22,3 +22,5 @@ print(df)
 
 dc = {"linear": [1, 2, 3], "square": [1, 4, 9], "cubic": [1, 8, 27]}
 print(dc)
+df = pd.DataFrame(dc, index=["d1", "d2", "d3"])
+print(df)
