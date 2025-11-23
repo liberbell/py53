@@ -42,3 +42,5 @@ df3.at["d1", "linear"] = 1
 df3.at["d2", "square"] = 4
 df3.at["d3", "cubic"] = 27
 print(df3)
+df31 = df3.fillna(0)
+print(df31)
