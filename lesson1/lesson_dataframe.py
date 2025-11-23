@@ -27,6 +27,12 @@ print(df)
 
 df2 = pd.DataFrame()
 df2.at["d1", "linear"] = 1
+df2.at["d1", "square"] = 1
+df2.at["d1", "cubic"] = 1
+df2.at["d2", "linear"] = 2
 df2.at["d2", "square"] = 4
+df2.at["d2", "cubic"] = 8
+df2.at["d3", "linear"] = 3
+df2.at["d3", "square"] = 9
 df2.at["d3", "cubic"] = 27
 print(df2)
