@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 list1 = [[1, 1, 1], [2, 4, 8], [3, 9, 27]]
 # for x in list1:
@@ -12,3 +13,6 @@ print(df)
 
 df = pd.DataFrame(list1)
 print(df)
+
+ar = np.array(list1)
+print(ar)
