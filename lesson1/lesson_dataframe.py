@@ -80,3 +80,5 @@ lin = pd.Series([4, 16, 64, "George"], index=["linear", "square", "cubic", "name
 df2.loc["d4"] = lin
 print(df2.values)
 print(df2.to_numpy())
+print(df2.index)
+print(df2.columns)
