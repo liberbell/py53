@@ -75,3 +75,7 @@ print(df4)
 
 print(df2)
 print(df2.loc["d2"])
+
+lin = pd.Series([4, 16, 64, "George"], index=["linear", "square", "cubic", "name"])
+df2.loc["d4"] = lin
+print(df2)
