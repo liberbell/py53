@@ -51,3 +51,6 @@ print(df2.loc["d1":"d2", "linear":"square"])
 print(df2.loc["d1":"d2", :])
 print(df2.loc[:, "linear":"square"])
 print(df2.loc[["d1", "d3"], ["linear", "cubic"]])
+
+print(df2.iloc[0:2, 0:2])
+print(df2.iloc[[0, 2], [0, 2]])
