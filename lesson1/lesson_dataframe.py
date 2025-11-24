@@ -91,3 +91,7 @@ df21 = df2.sort_values("name")
 print(df21)
 
 print(df2.sort_values("name", ascending=False))
+print(df21.sort_index())
+
+df22 = df2.drop(index="d4")
+print(df22)
