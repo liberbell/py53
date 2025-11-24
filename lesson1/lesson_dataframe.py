@@ -72,3 +72,6 @@ print(df4.name)
 # df4.gender = ["male", "femail"]
 df4["gender"] = ["male", "male"]
 print(df4)
+
+print(df2)
+print(df2.loc["d2"])
