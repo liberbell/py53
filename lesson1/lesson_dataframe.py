@@ -85,3 +85,4 @@ print(df2.columns)
 print(df2.columns.to_numpy())
 
 print(df2.index.get_loc("d3"))
+print(df2.columns.get_loc("square"))
