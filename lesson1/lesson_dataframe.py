@@ -99,3 +99,6 @@ df22 = df2.drop(columns="name")
 print(df22)
 df22 = df2.drop(index="d4", columns="name")
 print(df22)
+
+df22 = df2.drop(index=["d1", "d2"], columns=["linear", "name"])
+print(df22)
