@@ -102,3 +102,6 @@ print(df22)
 
 df22 = df2.drop(index=["d1", "d2"], columns=["linear", "name"])
 print(df22)
+
+dfA = pd.DataFrame([["1a", "1b"], ["2a", "2b"]], index=["d1", "d2"], columns=["a", "b"])
+dfB = pd.DataFrame([["3a", "3b"], ["4a", "4b"]], index=["d3", "d4"], columns=["a", "b"])
