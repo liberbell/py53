@@ -82,3 +82,6 @@ print(df2.values)
 print(df2.to_numpy())
 print(df2.index)
 print(df2.columns)
+print(df2.columns.to_numpy())
+
+print(df2.index.get_loc("d3"))
