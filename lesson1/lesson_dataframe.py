@@ -47,3 +47,7 @@ print(df31)
 
 print(df2.iat[2, 1])
 print(df2)
+print(df2.loc["d1":"d2", "linear":"square"])
+print(df2.loc["d1":"d2", :])
+print(df2.loc[:, "linear":"square"])
+print(df2.loc[["d1", "d3"], ["linear", "cubic"]])
