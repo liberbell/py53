@@ -58,3 +58,7 @@ print(df2.iloc[[0, 2], [0, 2]])
 print(df2["linear"])
 
 c = pd.Series(["Eric", "Elton", "Bob"], index=["d1", "d2", "d3"])
+df2["name"] = c
+print(df2)
+
+print(df2[["linear", "name"]])
