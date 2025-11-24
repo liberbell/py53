@@ -65,3 +65,4 @@ print(df2[["linear", "name"]])
 
 df3 = pd.DataFrame([[1, 2], [3, 4]])
 print(df3)
+df4 = pd.DataFrame([["Eric", "UK", 80], ["Bob", "CB", 45]], columns=["name", "national", "age"])
