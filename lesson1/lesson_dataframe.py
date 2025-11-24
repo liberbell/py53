@@ -86,3 +86,6 @@ print(df2.columns.to_numpy())
 
 print(df2.index.get_loc("d3"))
 print(df2.columns.get_loc("square"))
+
+df21 = df2.sort_values("name")
+print(df21)
