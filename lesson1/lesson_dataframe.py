@@ -62,3 +62,6 @@ df2["name"] = c
 print(df2)
 
 print(df2[["linear", "name"]])
+
+df3 = pd.DataFrame([[1, 2], [3, 4]])
+print(df3)
