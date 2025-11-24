@@ -89,3 +89,5 @@ print(df2.columns.get_loc("square"))
 
 df21 = df2.sort_values("name")
 print(df21)
+
+print(df2.sort_values("name", ascending=False))
