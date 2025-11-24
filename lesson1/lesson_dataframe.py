@@ -69,4 +69,6 @@ df4 = pd.DataFrame([["Eric", "UK", 80], ["Bob", "CB", 45]], columns=["name", "na
 print(df4)
 print(df4.name)
 
-df4.gender = ["male", "femail"]
+# df4.gender = ["male", "femail"]
+df4["gender"] = ["male", "male"]
+print(df4)
