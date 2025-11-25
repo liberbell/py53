@@ -122,3 +122,6 @@ print(dfAC)
 
 dfD = pd.DataFrame([["1e", "1f"], ["2e", "2f"], ["3e", "3f"]], index=["d1", "d2", "d3"], columns=["e", "f"])
 print(dfD)
+
+dfAD = pd.concat([dfA, dfD], axis=1)
+print(dfAD)
