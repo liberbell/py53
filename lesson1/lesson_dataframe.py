@@ -108,3 +108,6 @@ dfB = pd.DataFrame([["3a", "3b"], ["4a", "4b"]], index=["d3", "d4"], columns=["a
 
 print(dfA)
 print(dfB)
+
+dfAB = pd.concat([dfA, dfB])
+print(dfAB)
