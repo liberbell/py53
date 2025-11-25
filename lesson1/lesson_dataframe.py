@@ -111,3 +111,11 @@ print(dfB)
 
 dfAB = pd.concat([dfA, dfB])
 print(dfAB)
+dfAB = pd.concat([dfB, dfA])
+print(dfAB)
+
+dfC = pd.DataFrame([["3c", "3d"], ["4c", "4d"]], index=["d3", "d4"], columns=["c", "d"])
+print(dfC)
+
+dfAC = pd.concat([dfA, dfC])
+print(dfAC)
