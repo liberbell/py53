@@ -119,3 +119,6 @@ print(dfC)
 
 dfAC = pd.concat([dfA, dfC])
 print(dfAC)
+
+dfD = pd.DataFrame([["1e", "1f"], ["2e", "2f"], ["3e", "3f"]], index=["d1", "d2"], columns=["c", "d"])
+print(dfC)
