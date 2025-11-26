@@ -140,3 +140,5 @@ df31 = df3[cond]
 print(df31)
 
 print(df3[df3["gender"]=="female"])
+
+print(df2.describe())
