@@ -136,3 +136,5 @@ df3 = pd.DataFrame([
 print(df3)
 
 cond = [False, True, False, False]
+df31 = df3[cond]
+print(df31)
