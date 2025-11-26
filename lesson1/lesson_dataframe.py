@@ -134,3 +134,5 @@ df3 = pd.DataFrame([
 ], columns=["name", "gender", "age"])
 
 print(df3)
+
+cond = [False, True, False, False]
