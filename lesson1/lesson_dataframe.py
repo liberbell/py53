@@ -138,3 +138,5 @@ print(df3)
 cond = [False, True, False, False]
 df31 = df3[cond]
 print(df31)
+
+print(df3[df3["gender"]=="female"])
