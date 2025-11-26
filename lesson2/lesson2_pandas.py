@@ -12,3 +12,6 @@ df.to_csv(fname1)
 
 fname2 = dname + r"/csv01_noindex.csv"
 df.to_csv(fname2, index=False)
+
+fname3 = dname + r"/csv01_nohead.csv"
+df.to_csv(fname3, header=False)
