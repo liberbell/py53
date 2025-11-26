@@ -125,3 +125,8 @@ print(dfD)
 
 dfAD = pd.concat([dfA, dfD], axis=1)
 print(dfAD)
+
+df3 = pd.DataFrame([
+    ["Eric", "male", 74],
+    ["Elton", "male", 81],
+])
