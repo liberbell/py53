@@ -5,5 +5,7 @@ df = pd.DataFrame(list1, index=["d1", "d2", "d3"], columns=["linear", "square", 
 print(df)
 
 dname = r"/data"
-fname = dname + r"/csv01.csv"
-print(fname)
+fname1 = dname + r"/csv01.csv"
+print(fname1)
+
+df.to_csv(fname1)
