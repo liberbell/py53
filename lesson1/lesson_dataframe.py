@@ -142,3 +142,4 @@ print(df31)
 print(df3[df3["gender"]=="female"])
 
 print(df2.describe())
+print(df2.info())
