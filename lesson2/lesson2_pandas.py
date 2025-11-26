@@ -6,6 +6,8 @@ print(df)
 
 dname = r"data"
 fname1 = dname + r"/csv01.csv"
-print(fname1)
+# print(fname1)
 
 df.to_csv(fname1)
+
+fname2 = dname + r"/csv01_noindex.csv"
