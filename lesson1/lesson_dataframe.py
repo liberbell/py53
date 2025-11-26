@@ -129,4 +129,8 @@ print(dfAD)
 df3 = pd.DataFrame([
     ["Eric", "male", 74],
     ["Elton", "male", 81],
-])
+    ["Aletha", "female", 71],
+    ["Bob", "male", 48]
+], columns=["name", "gender", "age"])
+
+print(df3)
