@@ -25,5 +25,5 @@ print(df2)
 df2 = pd.read_csv(fname2)
 print(df2)
 
-df2 = pd.read_csv(fname3)
+df2 = pd.read_csv(fname3, index_col=0, names=["linear", "square", "cubic"])
 print(df2)
