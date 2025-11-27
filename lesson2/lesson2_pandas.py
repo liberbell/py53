@@ -15,3 +15,6 @@ df.to_csv(fname2, index=False)
 
 fname3 = dname + r"/csv01_nohead.csv"
 df.to_csv(fname3, header=False)
+
+df2 = pd.read_csv(fname1)
+print(df2)
