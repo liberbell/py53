@@ -21,3 +21,9 @@ print(df2)
 
 df2 = pd.read_csv(fname1, index_col=0)
 print(df2)
+
+df2 = pd.read_csv(fname2)
+print(df2)
+
+df2 = pd.read_csv(fname3)
+print(df2)
