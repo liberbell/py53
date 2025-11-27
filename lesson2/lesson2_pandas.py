@@ -29,5 +29,5 @@ df2 = pd.read_csv(fname3, index_col=0, names=["linear", "square", "cubic"])
 print(df2)
 
 fname4 = dname + r"/file_sjis.csv"
-df3 = pd.read_csv(fname4)
+df3 = pd.read_csv(fname4, encoding="sjis", index_col=0)
 print(df3)
