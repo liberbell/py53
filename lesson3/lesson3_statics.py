@@ -1,2 +1,4 @@
 import pandas as pd
-import scipy
+from scipy import stats
+
+print(stats.uniform.rvs(size=5))
