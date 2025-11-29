@@ -12,9 +12,10 @@ print(df)
 
 # plt.plot(df["Uni"])
 df["Uni"].plot()
-plt.gca().invert_xaxis()
 plt.show()
 
 df["Norm"].plot()
-plt.gca().invert_xaxis()
+plt.show()
+
+df["LogNorm"].plot()
 plt.show()
