@@ -24,3 +24,4 @@ r = df.describe()
 print(r)
 
 print(r.loc["mean", "Norm"])
+print(r.loc["mean"])
