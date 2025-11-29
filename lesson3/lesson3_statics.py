@@ -14,3 +14,7 @@ print(df)
 df["Uni"].plot()
 plt.gca().invert_xaxis()
 plt.show()
+
+df["Norm"].plot()
+plt.gca().invert_xaxis()
+plt.show()
