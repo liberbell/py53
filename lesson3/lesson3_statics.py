@@ -32,4 +32,5 @@ print(sr.mode())
 
 df = pd.DataFrame()
 df["col1"] = sr
-df["col2"] = []
+df["col2"] = ["a", "b", "b", "b", "c", "c"]
+df["col3"] = ["b", "b", "b", "c", "c", "c"]
