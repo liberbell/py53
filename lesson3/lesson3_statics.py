@@ -28,3 +28,8 @@ print(r.loc["mean"])
 
 sr = pd.Series(["a", "b", "b", "c", "c", "c"])
 print(sr.value_counts())
+print(sr.mode())
+
+df = pd.DataFrame()
+df["col1"] = sr
+df["col2"] = []
