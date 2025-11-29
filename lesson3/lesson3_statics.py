@@ -11,11 +11,16 @@ df["LogNorm"] = stats.lognorm.rvs(loc=0, s=1, size=10000)
 print(df)
 
 # plt.plot(df["Uni"])
-df["Uni"].plot()
-plt.show()
+# df["Uni"].plot()
+# plt.show()
 
-df["Norm"].plot()
-plt.show()
+# df["Norm"].plot()
+# plt.show()
 
-df["LogNorm"].plot()
-plt.show()
+# df["LogNorm"].plot()
+# plt.show()
+
+r = df.describe()
+print(r)
+
+print(r.loc["mean", "Norm"])
