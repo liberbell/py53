@@ -25,3 +25,6 @@ print(r)
 
 print(r.loc["mean", "Norm"])
 print(r.loc["mean"])
+
+sr = pd.Series(["a", "b", "b", "c", "c", "c"])
+print(sr.value_counts())
