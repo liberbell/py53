@@ -34,4 +34,5 @@ df = pd.DataFrame()
 df["col1"] = sr
 df["col2"] = ["a", "b", "b", "b", "c", "c"]
 df["col3"] = ["b", "b", "b", "c", "c", "c"]
-print(df)
+print(df["col3"].value_counts())
+print(df.mode())
