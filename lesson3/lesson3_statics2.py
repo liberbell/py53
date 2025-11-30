@@ -27,5 +27,11 @@ x = np.arange(-2, 2, 0.05)
 y = x**2
 # print(y)
 
+fname = r"data/" + "testFig01.png"
+
+plt.figure()
 plt.plot(x, y)
+plt.savefig(fname)
 plt.show()
+
+
