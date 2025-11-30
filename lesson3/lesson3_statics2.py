@@ -22,3 +22,4 @@ iv = pd.Interval(1, 2, closed="neither")
 print(iv)
 
 x = np.arange(-2, 2, 0.05)
+print(x)
