@@ -36,6 +36,12 @@ fname = r"data/" + "testFig01.png"
 
 fname = r"data/" + "testFig02.png"
 
+# plt.figure()
+# df.hist(bins=20, figsize=(14, 3))
+# plt.savefig(fname)
+
+fname = r"data/" + "testFig03.png"
 plt.figure()
-df.hist(bins=20, figsize=(14, 3))
+df["Norm"].hist(bins=30)
+df["LogNorm"].hist(bins=30)
 plt.savefig(fname)
