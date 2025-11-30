@@ -23,3 +23,6 @@ print(iv)
 
 x = np.arange(-2, 2, 0.05)
 print(x)
+
+y = x**2
+print(y)
