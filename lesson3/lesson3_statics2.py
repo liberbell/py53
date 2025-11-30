@@ -12,3 +12,6 @@ plt.plot(df)
 
 B = df["Norm"].value_counts(bins=20)
 print(B)
+B.sort_index(inplace=True)
+print(B)
+print(B.index[0])
