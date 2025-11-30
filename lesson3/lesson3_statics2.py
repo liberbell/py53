@@ -29,9 +29,14 @@ y = x**2
 
 fname = r"data/" + "testFig01.png"
 
+# plt.figure()
+# plt.plot(x, y)
+# plt.savefig(fname)
+# plt.show()
+
+fname = r"data/" + "testFig02.png"
+
 plt.figure()
-plt.plot(x, y)
+df.hist(bins=20, figsize=(14, 3))
 plt.savefig(fname)
 plt.show()
-
-
