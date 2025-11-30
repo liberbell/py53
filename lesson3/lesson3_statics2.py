@@ -15,3 +15,7 @@ print(B)
 B.sort_index(inplace=True)
 print(B)
 print(B.index[0])
+print(B.max())
+
+iv = pd.Interval(1, 2, closed="neither")
+print(iv)
