@@ -42,10 +42,18 @@ fname = r"data/" + "testFig02.png"
 
 fname = r"data/" + "testFig03.png"
 plt.figure()
-df["Norm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="norm")
-df["LogNorm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="lognorm")
-plt.xlabel("value")
-plt.ylabel("freq")
+# df["Norm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="norm")
+# df["LogNorm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="lognorm")
+# plt.xlabel("value")
+# plt.ylabel("freq")
+# plt.legend()
+# plt.title("Histgram of norm and lognorm")
+# plt.savefig(fname)
+
+df["Norm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="正規分布")
+df["LogNorm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="対数正規分布")
+plt.xlabel("値")
+plt.ylabel("頻度")
 plt.legend()
-plt.title("Histgram of norm and lognorm")
+plt.title("正規分布と対数正規分布の表")
 plt.savefig(fname)
