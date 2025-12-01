@@ -1,6 +1,7 @@
 import pandas as pd
 from scipy import stats
 import matplotlib.pyplot as plt
+import japanize_matplotlib
 import numpy as np
 
 df = pd.DataFrame()
