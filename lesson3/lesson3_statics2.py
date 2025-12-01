@@ -59,6 +59,7 @@ plt.figure()
 # plt.title("正規分布と対数正規分布の表")
 # plt.savefig(fname)
 
-df["Norm"].plot.box(vert=False)
+# df["Norm"].plot.box(vert=False)
+df.plot.box(vert=False)
 
 plt.savefig(fname)
