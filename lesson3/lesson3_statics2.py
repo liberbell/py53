@@ -42,9 +42,10 @@ fname = r"data/" + "testFig02.png"
 
 fname = r"data/" + "testFig03.png"
 plt.figure()
-df["Norm"].hist(bins=30, alpha=0.6, range=(-3, 7))
-df["LogNorm"].hist(bins=30, alpha=0.6, range=(-3, 7))
+df["Norm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="norm")
+df["LogNorm"].hist(bins=30, alpha=0.6, range=(-3, 7), label="lognorm")
 plt.xlabel("value")
 plt.ylabel("freq")
+plt.legend()
 plt.title("Histgram of norm and lognorm")
 plt.savefig(fname)
