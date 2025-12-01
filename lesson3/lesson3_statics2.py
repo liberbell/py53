@@ -60,6 +60,6 @@ plt.figure()
 # plt.savefig(fname)
 
 # df["Norm"].plot.box(vert=False)
-df.plot.box(vert=False)
+df.plot.box(vert=False, figsize=(12, 2))
 
 plt.savefig(fname)
