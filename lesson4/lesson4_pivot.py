@@ -21,4 +21,5 @@ df["favorite"] = m
 df["age"] = stats.norm.rvs(loc=35, scale=10, size=300, random_state=3).astype("int32")
 print(df)
 
-df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", )
+df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="mean")
+print(df2)
