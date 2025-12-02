@@ -14,3 +14,8 @@ random.seed(2)
 m = ["okoomi"] * 80 + ["curry"] * 120 + ["oden"] * 50 + ["udon"] * 50
 random.shuffle(m)
 print(m)
+
+df = pd.DataFrame()
+df["comefrom"] = p
+df["favorite"] = m
+df["age"] = stats.norm.rvs(loc=35, scale=10, size=300, random_state=3)
