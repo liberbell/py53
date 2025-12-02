@@ -6,5 +6,6 @@ print(["a", "b", "c"] + ["d", "e", "f"])
 print(["a", "b", "c"] * 3)
 
 p = ["osaka", "kyoto", "tokyo"] * 100
+random.seed(1)
 random.shuffle(p)
 print(p)
