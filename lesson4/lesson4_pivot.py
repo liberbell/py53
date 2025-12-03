@@ -25,3 +25,6 @@ df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc
 print(df2)
 
 print(df[(df["comefrom"] == "osaka") & (df["favorite"] == "oden")]["age"].mean())
+
+df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="min")
+print(df2)
