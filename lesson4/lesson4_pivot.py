@@ -50,5 +50,6 @@ sr = df["favorite"].value_counts()
 # plt.figure()
 # plt.show()
 
+sr.name = ""
 sr.plot.pie()
 plt.show()
