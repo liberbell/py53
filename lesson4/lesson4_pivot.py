@@ -39,3 +39,7 @@ print(pd.crosstab(df["comefrom"], df["favorite"], margins=True))
 
 df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="count", margins=True)
 print(df2)
+
+print(df)
+sr = df["favorite"].value_counts()
+print(sr)
