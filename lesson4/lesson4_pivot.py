@@ -44,8 +44,12 @@ print(df2)
 
 print(df)
 sr = df["favorite"].value_counts()
-print(sr)
+# print(sr)
 
-sr.plot(kind="pie")
+# sr.plot(kind="pie")
+# plt.figure()
+# plt.show()
+
+sr.plot.pie()
 plt.figure()
 plt.show()
