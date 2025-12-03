@@ -23,3 +23,5 @@ print(df)
 
 df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="mean")
 print(df2)
+
+df[(df["comefrom"] == "osaka") & (df["favorite"] == "oden") ]
