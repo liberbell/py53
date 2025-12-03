@@ -35,4 +35,7 @@ print(df2)
 df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="count")
 print(df2)
 
-print(pd.crosstab(df["comefrom"], df["favorite"]))
+print(pd.crosstab(df["comefrom"], df["favorite"], margins=True))
+
+df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="count", margins=True)
+print(df2)
