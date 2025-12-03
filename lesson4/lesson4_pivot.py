@@ -1,6 +1,8 @@
 import pandas as pd
 import random
 from scipy import stats
+import matplotlib.pyplot as plt
+import japanize_matplotlib
 
 print(["a", "b", "c"] + ["d", "e", "f"])
 print(["a", "b", "c"] * 3)
@@ -43,3 +45,7 @@ print(df2)
 print(df)
 sr = df["favorite"].value_counts()
 print(sr)
+
+sr.plot(kind="pie")
+plt.figure()
+plt.show()
