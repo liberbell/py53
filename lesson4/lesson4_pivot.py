@@ -51,5 +51,8 @@ sr = df["favorite"].value_counts()
 # plt.show()
 
 sr.name = ""
-sr.plot.pie()
+# sr.plot.pie()
+# plt.show()
+
+sr.plot.pie(startangle=90, counterclock=False)
 plt.show()
