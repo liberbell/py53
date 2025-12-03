@@ -31,3 +31,6 @@ print(df2)
 
 df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="max")
 print(df2)
+
+df2 = df.pivot_table(index="comefrom", columns="favorite", values="age", aggfunc="count")
+print(df2)
