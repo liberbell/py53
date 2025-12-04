@@ -53,6 +53,6 @@ sr = df["favorite"].value_counts()
 sr.name = ""
 # sr.plot.pie()
 # plt.show()
-e = [0, 0, 0, 0]
+e = [0, 0, 0.2, 0]
 sr.plot.pie(startangle=90, counterclock=False, explode=e)
 plt.show()
