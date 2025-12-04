@@ -53,6 +53,11 @@ sr = df["favorite"].value_counts()
 sr.name = ""
 # sr.plot.pie()
 # plt.show()
+# e = [0, 0, 0.2, 0]
+# sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f")
+# plt.show()
+
 e = [0, 0, 0.2, 0]
-sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f")
+c = ["red", "green", "blue", "cyan"]
+sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f%%", color=c)
 plt.show()
