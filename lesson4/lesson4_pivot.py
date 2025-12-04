@@ -54,5 +54,5 @@ sr.name = ""
 # sr.plot.pie()
 # plt.show()
 e = [0, 0, 0.2, 0]
-sr.plot.pie(startangle=90, counterclock=False, explode=e)
+sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f")
 plt.show()
