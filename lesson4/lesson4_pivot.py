@@ -59,5 +59,5 @@ sr.name = ""
 
 e = [0, 0, 0.2, 0]
 c = ["red", "green", "blue", "cyan"]
-sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f%%", color=c)
+sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f%%", colors=c)
 plt.show()
