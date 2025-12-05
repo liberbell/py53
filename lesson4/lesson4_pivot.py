@@ -3,6 +3,7 @@ import random
 from scipy import stats
 import matplotlib.pyplot as plt
 import japanize_matplotlib
+import numpy as np
 
 print(["a", "b", "c"] + ["d", "e", "f"])
 print(["a", "b", "c"] * 3)
