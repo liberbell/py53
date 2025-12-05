@@ -60,5 +60,13 @@ sr.name = ""
 
 e = [0, 0, 0.2, 0]
 c = ["red", "green", "blue", "cyan"]
-sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f%%", colors=c)
-plt.show()
+# sr.plot.pie(startangle=90, counterclock=False, explode=e, autopct="%5.2f%%", colors=c)
+# plt.show()
+
+x = np.arange(-6.3, 6.4, 0.3)
+y1 = np.sin(x)
+y2 = np.cos(x)
+df3 = pd.DataFrame()
+df3["x"] = x
+df3["sin"] = y1
+df3["cos"] = y2
