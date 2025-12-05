@@ -71,3 +71,6 @@ df3["x"] = x
 df3["sin"] = y1
 df3["cos"] = y2
 print(df3.head(5))
+
+df3.plot()
+plt.show()
