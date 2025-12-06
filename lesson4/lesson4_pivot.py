@@ -74,8 +74,12 @@ print(df3.head(5))
 
 
 df3.plot(x="x", y=["sin", "cos"], lw=0.8)
-plt.title("graph of sin and cos")
-plt.grid()
-plt.xlim(-6, 6)
-plt.ylim(-1.2, 1.2)
-plt.show()
+# plt.title("graph of sin and cos")
+# plt.grid()
+# plt.xlim(-6, 6)
+# plt.ylim(-1.2, 1.2)
+# plt.show()
+
+fname = r"data/GDP.csv"
+G = pd.read_csv(fname)
+print(G)
