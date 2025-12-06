@@ -83,5 +83,5 @@ print(df3.head(5))
 fname = r"data/GDP.csv"
 G = pd.read_csv(fname, index_col=0)
 print(G)
-G["2021"].plot()
+G["2021"].plot(kind="bar", xlabel="country", ylabel="GDP", title="GDP 2021")
 plt.show()
