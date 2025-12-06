@@ -81,10 +81,12 @@ print(df3.head(5))
 # plt.show()
 
 fname = r"data/GDP.csv"
-G = pd.read_csv(fname, index_col=0)
-print(G)
-G.plot(kind="bar", xlabel="country", ylabel="GDP", title="GDP 2021")
-plt.show()
+# G = pd.read_csv(fname, index_col=0)
+# print(G)
+# G.plot(kind="bar", xlabel="country", ylabel="GDP", title="GDP 2021")
+# plt.show()
 
 x1 = stats.norm.rvs(loc=1, scale=1, size=200, random_state=1)
 x2 = stats.norm.rvs(loc=8, scale=2, size=800, random_state=2)
+x12 = np.append(x1, x2)
+print(len(x12))
