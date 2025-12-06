@@ -73,6 +73,7 @@ df3["cos"] = y2
 print(df3.head(5))
 
 
-df3.plot(x="x", y=["sin", "cos"], marker="s", lw=0.8)
+df3.plot(x="x", y=["sin", "cos"], lw=0.8)
 plt.title("graph of sin and cos")
+plt.grid()
 plt.show()
