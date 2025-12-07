@@ -29,6 +29,9 @@ print(d3)
 print(d3.tz_convert("Asia/Tokyo"))
 
 d1 = pd.Timestamp("2000-01-01T00:00:00", tz="Asia/Tokyo")
-d2 = pd.Timestamp("2023-03-14T13:15:00", tz="Asia/Tokyo")
+d2 = pd.Timestamp("2022-03-14T13:15:00", tz="Asia/Tokyo")
 td21 = d2 - d1
 print(td21)
+
+td100 = pd.Timedelta("100 days 01:20:30")
+print(td100)
