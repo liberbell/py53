@@ -91,7 +91,14 @@ x2 = stats.norm.rvs(loc=8, scale=2, size=800, random_state=2)
 x12 = np.append(x1, x2)
 print(len(x12))
 
-y1 = stats.norm.rvs(loc=1, scale=1, size=200, random_state=1)
-y2 = stats.norm.rvs(loc=8, scale=2, size=800, random_state=2)
+y1 = stats.norm.rvs(loc=1, scale=1, size=200, random_state=3)
+y2 = stats.norm.rvs(loc=8, scale=2, size=800, random_state=4)
 y12 = np.append(y1, y2)
 print(len(y12))
+
+df4 = pd.DataFrame()
+df4["x"] = x12
+df4["y"] = y12
+
+df4.hist(bins=20, figsize=(12, 3))
+plt.show()
