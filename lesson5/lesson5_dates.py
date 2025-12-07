@@ -38,3 +38,6 @@ print(td100)
 
 td100 = pd.Timedelta(days=100, hours=1, minutes=20, seconds=30)
 print(td100)
+
+d1 = pd.Timestamp("2022-01-01T00:00:00")
+d2 = pd.Timestamp("2022-12-31T23:59:59")
