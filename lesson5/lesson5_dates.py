@@ -16,3 +16,9 @@ print(d2.weekday())
 
 d3 = pd.Timestamp("1966-03-14T13:15:00+09:00")
 print(d3)
+
+d3 = pd.Timestamp("1966-03-14T13:15:00", tz="Asia/Tokyo")
+print(d3)
+
+d3 = pd.Timestamp("19660314131500", tz="Asia/Tokyo")
+print(d3)
