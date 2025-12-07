@@ -35,3 +35,6 @@ print(td21)
 
 td100 = pd.Timedelta("100 days 01:20:30")
 print(td100)
+
+td100 = pd.Timedelta(days=100, hours=1, minutes=20, seconds=30)
+print(td100)
