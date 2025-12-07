@@ -44,3 +44,6 @@ d2 = pd.Timestamp("2022-12-31T23:59:59")
 
 dr = pd.date_range(d1, d2, freq="MS")
 print(dr)
+
+dr = pd.date_range(d1, d2, freq="D")
+print(dr)
