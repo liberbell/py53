@@ -100,5 +100,6 @@ df4 = pd.DataFrame()
 df4["x"] = x12
 df4["y"] = y12
 
-df4.hist(bins=20, figsize=(12, 3))
+# df4.hist(bins=20, figsize=(12, 3))
+df4.plot(kind="scatter", x="x", y="y")
 plt.show()
