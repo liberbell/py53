@@ -47,3 +47,5 @@ print(dr)
 
 dr = pd.date_range(d1, d2, freq="D")
 print(dr)
+
+print(dr.to_numpy())
