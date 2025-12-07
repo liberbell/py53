@@ -12,3 +12,7 @@ print(d2.hour)
 print(d2.minute)
 print(d2.second)
 print(d2.microsecond)
+print(d2.weekday())
+
+d3 = pd.Timestamp("1966-03-14T13:15:00+09:00")
+print(d3)
