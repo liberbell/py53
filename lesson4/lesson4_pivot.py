@@ -101,5 +101,6 @@ df4["x"] = x12
 df4["y"] = y12
 
 # df4.hist(bins=20, figsize=(12, 3))
-df4.plot(kind="scatter", x="x", y="y")
+# df4.plot(kind="scatter", x="x", y="y")
+df4.plot.scatter(x="x", y="y", alpha=0.6)
 plt.show()
