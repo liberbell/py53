@@ -42,5 +42,5 @@ print(td100)
 d1 = pd.Timestamp("2022-01-01T00:00:00")
 d2 = pd.Timestamp("2022-12-31T23:59:59")
 
-dr = pd.date_range(d1, d2, freq="ms")
+dr = pd.date_range(d1, d2, freq="MS")
 print(dr)
