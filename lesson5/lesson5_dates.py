@@ -27,3 +27,6 @@ d3 = pd.Timestamp("1966-03-14T04:15:00Z")
 print(d3)
 
 print(d3.tz_convert("Asia/Tokyo"))
+
+d1 = pd.Timestamp("2000-01-01T00:00:00", tz="Asia/Tokyo")
+d2 = pd.Timestamp("2023-03-14T13:15:00", tz="Asia/Tokyo")
